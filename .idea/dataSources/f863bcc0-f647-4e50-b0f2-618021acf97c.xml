@@ -917,9 +917,11 @@
     </collation>
     <table id="231" parent="3" name="clock_time">
       <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
     </table>
     <table id="232" parent="3" name="worker">
-      <Engine>MyISAM</Engine>
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
     </table>
     <column id="233" parent="231" name="id">
       <Position>1</Position>
@@ -931,36 +933,35 @@
     <column id="234" parent="231" name="id_worker">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="231" name="dayDate">
+    <column id="235" parent="231" name="am_start">
       <Position>3</Position>
-      <DataType>date|0</DataType>
+      <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="231" name="am_start">
+    <column id="236" parent="231" name="am_end">
       <Position>4</Position>
-      <DataType>varchar(5)|0</DataType>
+      <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="237" parent="231" name="am_end">
+    <column id="237" parent="231" name="pm_start">
       <Position>5</Position>
-      <DataType>varchar(5)|0</DataType>
+      <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="238" parent="231" name="pm_start">
+    <column id="238" parent="231" name="pm_end">
       <Position>6</Position>
-      <DataType>time|0</DataType>
+      <DataType>varchar(10)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="231" name="pm_end">
+    <column id="239" parent="231" name="day_time">
       <Position>7</Position>
-      <DataType>time|0</DataType>
+      <DataType>date|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -976,41 +977,78 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="231" name="Observation">
+    <column id="242" parent="231" name="lat_am">
       <Position>10</Position>
-      <DataType>text|0</DataType>
+      <DataType>double|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="243" parent="231" name="PRIMARY">
+    <column id="243" parent="231" name="long_am">
+      <Position>11</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="244" parent="231" name="lat_pm">
+      <Position>12</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="245" parent="231" name="long_pm">
+      <Position>13</Position>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="231" name="observation">
+      <Position>14</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="247" parent="231" name="IDX_4638A100B9850A8F">
+      <ColNames>id_worker</ColNames>
+    </index>
+    <key id="248" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="244" parent="232" name="id_worker">
+    <foreign-key id="249" parent="231" name="FK_4638A100B9850A8F">
+      <ColNames>id_worker</ColNames>
+      <RefSchemaName>ets_feuillatre_pointage</RefSchemaName>
+      <RefTableName>worker</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="250" parent="232" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="245" parent="232" name="name">
+    <column id="251" parent="232" name="name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="246" parent="232" name="password">
+    <column id="252" parent="232" name="firstName">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
-      <Collation>utf8_general_ci</Collation>
     </column>
-    <key id="247" parent="232" name="PRIMARY">
+    <column id="253" parent="232" name="password">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="254" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>id_worker</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>

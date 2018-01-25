@@ -49,7 +49,7 @@ class DbOperation
     function userLogin($name, $pass)
     {
         //$password = md5($pass);
-        $stmt = $this->con->prepare("SELECT id_worker FROM worker WHERE worker.name = ? AND worker.password = ?");
+        $stmt = $this->con->prepare("SELECT id FROM worker WHERE worker.name = ? AND worker.password = ?");
         $stmt->bind_param("ss", $name, $pass);
         $stmt->execute();
         $stmt->bind_result($id_worker);
@@ -83,6 +83,13 @@ class DbOperation
         {
             return false;
         }
+    }
 
+    function getDataClockPoint($id_worker, $day_time)
+    {
+        $stmt = $this->con->prepare("SELECT * FROM clock_time WHERE id_worker = ? AND dayDate = ?");
+        $stmt->bind_param("is", $id_worker, $day_time);
+        $stmt->execute();
+        $stmt->bind_result();
     }
 }

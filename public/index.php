@@ -60,6 +60,7 @@ $app->post("/getDataClockPoint", function (Request $request, Response $response)
 
        $db = new DbOperation();
        $responseData = [];
+      // if($db->)
 
    }
 });
