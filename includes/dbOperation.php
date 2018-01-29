@@ -70,26 +70,28 @@ class DbOperation
 
     function checkStatut($id_worker, $day_time)
     {
-        $stmt = $this->con->prepare("SELECT statut FROM clock_time WHERE id_worker = ? AND dayDate = ?");
+        $stmt = $this->con->prepare("SELECT statut FROM clock_time WHERE id_worker = ? AND day_time = ?");
         $stmt->bind_param("is", $id_worker, $day_time);
         $stmt->execute();
         $stmt->bind_result($statut);
-        $stmt->fetch();
-        if($statut != 0)
-        {
+        $result = $stmt->get_result()->fetch_array();
+        print_r($result);
+        if($result['statut'] != 0) {
             return true;
         }
-        else
-        {
+        else {
             return false;
+
         }
     }
 
     function getDataClockPoint($id_worker, $day_time)
     {
-        $stmt = $this->con->prepare("SELECT * FROM clock_time WHERE id_worker = ? AND dayDate = ?");
+        $stmt = $this->con->prepare("SELECT am_start, am_end, pm_start, pm_end, place, statut, observation FROM clock_time WHERE id_worker = ? AND day_time = ?");
         $stmt->bind_param("is", $id_worker, $day_time);
         $stmt->execute();
-        $stmt->bind_result();
+        $stmt->bind_result($amStart, $amEnd, $pmStart, $pmEnd, $place, $statut, $observation);
+        $result = $stmt->get_result();
+        return $result->fetch_array();
     }
 }

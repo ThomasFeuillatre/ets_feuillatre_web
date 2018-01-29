@@ -60,8 +60,17 @@ $app->post("/getDataClockPoint", function (Request $request, Response $response)
 
        $db = new DbOperation();
        $responseData = [];
-      // if($db->)
-
+       if($result = $db->getDataClockPoint($id_worker, $date))
+       {
+           $responseData['error'] = false;
+           $responseData['am_start'] = $result['am_start'];
+           $responseData['am_end'] = $result['am_end'];
+           $responseData['pm_start'] = $result['pm_start'];
+           $responseData['pm_end'] = $result['pm_end'];
+           $responseData['place'] = $result['place'];
+           $responseData['observation'] = $result['observation'];
+       }
+       $response->getBody()->write(json_encode($responseData));
    }
 });
 
@@ -114,6 +123,7 @@ $app->post("/checkStatut",function (Request $request, Response $response)
        {
            $responseData['error'] = true;
            $responseData['message'] = 'error';
+           $responseData['statut'] = $statut;
        }
        $response->getBody()->write(json_encode($responseData));
    }

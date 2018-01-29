@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a0eae07-58fb-4e7a-946f-f80a5eb5f0f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f863bcc0-f647-4e50-b0f2-618021acf97c.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/f863bcc0-f647-4e50-b0f2-618021acf97c.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/includes/dbOperation.php" afterPath="$PROJECT_DIR$/includes/dbOperation.php" />
       <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
@@ -35,17 +34,6 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ets_feuillatre@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ets_feuillatre@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ets_feuillatre: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="ets_feuillatre_pointage@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -66,13 +54,6 @@
         <item name="ets_feuillatre_pointage: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="clock_time: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ets_feuillatre_pointage@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ets_feuillatre_pointage: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="worker: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -81,8 +62,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="127">
+              <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
               <folding>
                 <element signature="e#6#62#0#PHP" expanded="true" />
               </folding>
@@ -90,12 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="clock_time" pinned="false" current-in-tab="false">
+        <entry file="das://table:/2cb515ba/f863bcc0-f647-4e50-b0f2-618021acf97c/ets_feuillatre_pointage.clock_time">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -103,17 +83,17 @@
       <file leaf-file-name="dbOperation.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/dbOperation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="535">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
-                <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-                <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-                <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-                <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-                <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-                <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-                <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-                <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+                <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+                <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+                <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+                <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+                <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+                <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+                <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+                <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
               </folding>
             </state>
           </provider>
@@ -135,7 +115,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response7.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response69.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +242,134 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.1.10:8080" />
+          <option name="urlPath" value="/ets_feuillatre_web/public/checkStatut" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id_worker" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="day_time" />
+                <option name="value" value="2018-01-30" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.1.10:8080" />
+          <option name="urlPath" value="/ets_feuillatre_web/public/checkStatut" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id_worker" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="day_time" />
+                <option name="value" value="2018-01-15" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.1.10:8080" />
+          <option name="urlPath" value="/ets_feuillatre_web/public/getDataClockPoint" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id_worker" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="day_time" />
+                <option name="value" value="2018-01-15" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.1.10:8080" />
+          <option name="urlPath" value="/ets_feuillatre_web/public/checkStatut" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id_worker" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="dayDate" />
+                <option name="value" value="2018-01-15" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://192.168.1.10:8080" />
@@ -364,23 +472,33 @@
       <workItem from="1515483688000" duration="11945000" />
       <workItem from="1515588006671" duration="173000" />
       <workItem from="1515588190836" duration="5267000" />
-      <workItem from="1516872458044" duration="3327000" />
+      <workItem from="1516872458044" duration="4322000" />
+      <workItem from="1516893941044" duration="3359000" />
+      <workItem from="1517210189932" duration="10566000" />
     </task>
+    <task id="LOCAL-00001" summary="start getDataClock for calendar">
+      <created>1516888143826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516888143826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46190000" />
+    <option name="totallyTimeSpent" value="61110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20255864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47391304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -406,6 +524,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="start getDataClock for calendar" />
+    <option name="LAST_COMMIT_MESSAGE" value="start getDataClock for calendar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,6 +534,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbOperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbOperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -437,14 +635,14 @@
         <state relative-caret-position="1241">
           <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -472,14 +670,14 @@
         <state relative-caret-position="1241">
           <caret line="78" column="9" lean-forward="false" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -507,14 +705,14 @@
         <state relative-caret-position="1241">
           <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -534,14 +732,14 @@
         <state relative-caret-position="1037">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -569,14 +767,14 @@
         <state relative-caret-position="408">
           <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -612,14 +810,14 @@
         <state relative-caret-position="510">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -662,14 +860,14 @@
         <state relative-caret-position="595">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -712,14 +910,14 @@
         <state relative-caret-position="595">
           <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
@@ -800,14 +998,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -816,27 +1006,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/dbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2cb515ba/f863bcc0-f647-4e50-b0f2-618021acf97c/ets_feuillatre_pointage.clock_time">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/dbOperation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="535">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
-            <marker date="1516874337641" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
-            <marker date="1516874337641" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
-            <marker date="1516874337641" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
-            <marker date="1516874337641" expanded="true" signature="2151:2216" ph="SELECT statu... clock_time" />
-            <marker date="1516874337641" expanded="true" signature="2596:2656" ph="SELECT * FRO... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="415:435" ph="SELECT * FRO... points" />
+            <marker date="1517244756083" expanded="true" signature="1316:1357" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1358" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1382" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1316:1383" ph="SELECT id FR... worker" />
+            <marker date="1517244756083" expanded="true" signature="1703:1922" ph="INSERT INTO clock_time... " />
+            <marker date="1517244756083" expanded="true" signature="2151:2217" ph="SELECT statu... clock_time" />
+            <marker date="1517244756083" expanded="true" signature="2648:2770" ph="SELECT * FRO... clock_time" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="127">
+          <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding>
             <element signature="e#6#62#0#PHP" expanded="true" />
           </folding>
